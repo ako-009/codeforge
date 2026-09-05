@@ -8,7 +8,7 @@ import json
 from app.benchmark.runner import run_benchmark
 
 if __name__ == "__main__":
-    report = run_benchmark("data/humaneval_10.json")
+    report = run_benchmark("data/humaneval_50.json")
 
     metrics = report["metrics"]
     print("\nBENCHMARK RESULTS")
